@@ -16,7 +16,8 @@ func halve(number *float64)  {
   *number = *number / 2
   fmt.Println("*number in 'halve':", *number)
 }
-
+// the * before a pointer gets the value of that pointer
+// Typing & before a variable name gives you the address of that variable's value. & can be read aloud as "address of".
 // func main()  {
 //   car:= Car {
 //     Doors:        4,
